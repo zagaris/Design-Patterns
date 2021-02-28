@@ -1,4 +1,18 @@
 """
+Ορίζουμε interface για τη δημιουργία αντικειμένου, αλλά αφήνουμε 
+στις υποκλάσεις να αποφασίσουν ποια κλάση να αρχικοποιήσουν.
+Η μέθοδος Factory αφήνει μια κλάση να διαφοροποιήσει την 
+αρχικοποίηση στις υποκλάσεις.
+
+Creator --@abstractmethod
+    ConcreteCreator1 {_factory_method}
+    ConcreteCreator2 {_factory_method}
+
+Product --@abstractmethod
+    ConcreteProduct1
+    ConcreteProduct2
+
+
 Define an interface for creating an object, but let subclasses decide
 which class to instantiate. Factory Method lets a class defer
 instantiation to subclasses.
