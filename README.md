@@ -43,6 +43,10 @@
 | 9    | [Template Method](https://refactoring.guru/design-patterns/template-method) | Defines a skeleton of an algorithm in the superclass but lets subclasses override specific steps of the algorithm without changing its structure. | ![](https://refactoring.guru/images/patterns/cards/template-method-mini.png) |
 | 10   | [Visitor](https://refactoring.guru/design-patterns/visitor)  | Lets you separate algorithms from the objects on which they operate. | ![](https://refactoring.guru/images/patterns/cards/visitor-mini.png) |
 
+
+
+![](C:\Users\plouk\pseudo.coder\Design-Patterns\Python\screenshots\Design-Patterns-Relationships.png)
+
 UML Diagram for Python Design Pattern Examples
 ===
 
